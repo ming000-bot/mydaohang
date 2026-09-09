@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>阿明制作导航系统</title>
+    <!-- 引入外部样式 -->
+    <link rel="stylesheet" href="other/style.css">
+    <!-- 粒子库（CDN） -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+<body>
+
+    <div id="particles-js"></div>
+
+
+    <div class="login-container" id="loginContainer">
+        <h2 class="login-title">导航系统 · 身份验证</h2>
+        <input type="password" class="password-input" id="passwordInput" placeholder="请输入登录密码" autocomplete="off">
+        <button class="login-btn" id="loginBtn">验证并进入</button>
+        <div class="error-message" id="errorMessage">密码错误，请重试！</div>
+    </div>
+
+
+    <div class="nav-container" id="navContainer">
+        <div class="nav-header">
+            <h1 class="nav-title">阿明制作导航中心</h1>
+            <p class="nav-subtitle">高效访问 · 智能导航</p>
+        </div>
+
+
+        <div class="sites-grid" id="sitesGrid"></div>
+    </div>
+
+
+    <script src="other/links.js"></script>
+
+    <script src="other/script.js"></script>
+</body>
+</html>
