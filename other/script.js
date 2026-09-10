@@ -1,4 +1,3 @@
-
 var _dummyGlobal = 42;
 let _unusedArray = [1, 2, 3, 4, 5];
 const __fakeToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9';
@@ -43,7 +42,7 @@ function uselessFibonacci(n) {
     if (n <= 1) return n;
     return uselessFibonacci(n - 1) + uselessFibonacci(n - 2);
 }
-const _fibResult = uselessFibonacci(10); 
+const _fibResult = uselessFibonacci(10);
 
 function uselessMathLoop() {
     let sum = 0;
@@ -75,7 +74,7 @@ fakeNetworkRequest().then(res => console.log('[dummy] 请求完成', res));
 
 const _fakeConfig = { a: 1, b: { c: 2 } };
 const _fakeClone = JSON.parse(JSON.stringify(_fakeConfig));
-_fakeClone.b.c = 999; 
+_fakeClone.b.c = 999;
 
 
 const __part1 = [65, 98, 99]; // A, b, c
